@@ -300,12 +300,12 @@ p {
 }
 
 .dropdown .inner:hover {
-    border: 0.19rem solid #44EBF8;
+    border: 0.19rem solid #000000;
 }
 
 .dropdown .inner:focus-within,
 .dropdown .inner:focus {
-    box-shadow: 0 0 0 0.125rem #44EBF8;
+    box-shadow: 0 0 0 0.125rem #000000;
 }
 
 .dropdown p {
@@ -428,12 +428,12 @@ input[type=text] {
 
 input[type=number]:hover,
 input[type=text]:hover {
-	border: 0.19rem solid #44EBF8;	
+	border: 0.19rem solid #000000;	
 }
 
 input[type=number]:focus,
 input[type=text]:focus {
-	box-shadow: 0 0 0 0.125rem #44EBF8;
+	box-shadow: 0 0 0 0.125rem #000000;
 } 
 
 .options textarea {
@@ -467,11 +467,11 @@ button {
 }
 
 button:hover {
-    border: 0.19rem solid #44EBF8;  
+    border: 0.19rem solid #000000;  
 }
 
 button:focus {
-    box-shadow: 0 0 0 0.125rem #44EBF8;
+    box-shadow: 0 0 0 0.125rem #000000;
 } 
 
 #reset-vars {
@@ -508,11 +508,11 @@ textarea::-webkit-scrollbar {
 }
 
 textarea:hover {
-	border: 0.19rem solid #44EBF8;
+	border: 0.19rem solid #000000;
 }
 
 textarea:focus {
-	box-shadow: 0 0 0 0.125rem #44EBF8;
+	box-shadow: 0 0 0 0.125rem #000000;
 } 
 
 .codes h4 {
@@ -537,11 +537,11 @@ a {
 }
 
 a:hover {
-	color: #44EBF8;
+	color: #000000;
 }
 
 a:visited {
-	color: #44EBF8;
+	color: #000000;
 }
 
 
@@ -573,11 +573,11 @@ input[type=range]::-webkit-slider-thumb {
 }
    
 input[type=range]:hover::-webkit-slider-thumb {
-    border: 0.19rem solid #44EBF8;
+    border: 0.19rem solid #000000;
 }
 
 input[type=range]:focus::-webkit-slider-thumb {
-    box-shadow: 0 0 0 0.125rem #44EBF8;
+    box-shadow: 0 0 0 0.125rem #000000;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
@@ -599,11 +599,11 @@ input[type=range]::-moz-range-thumb {
 }
    
 input[type=range]:hover::-moz-range-thumb {
-    border: 0.19rem solid #44EBF8;
+    border: 0.19rem solid #000000;
 }
 
 input[type=range]:focus::-moz-range-thumb {
-    box-shadow: 0 0 0 0.125rem #44EBF8;
+    box-shadow: 0 0 0 0.125rem #000000;
 }
 
 input[type=range]::-moz-range-track {
