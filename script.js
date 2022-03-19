@@ -1696,7 +1696,7 @@ function drawPoints( graph ) {
     for(let point of dataPoints) {
 
         // use pointFunction to determine point colour
-        let pointColour = pointFunction(point) ? "#8decd3" : "#bbbbbb";
+        let pointColour = pointFunction(point) ? "#fe0206" : "#bbbbbb";
         drawPoint( graph, pointColour, graph.graphToCanvas( point ) );
     }
 }
@@ -1708,7 +1708,7 @@ function drawCurve(graph) {
     const width = maxX - minX;
 
     // set style for curve
-    graph.ctx.strokeStyle = "#8decd3";
+    graph.ctx.strokeStyle = "#fe0206";
     graph.ctx.lineWidth   = 0.19 * graph.rem;
     graph.ctx.beginPath();
 
